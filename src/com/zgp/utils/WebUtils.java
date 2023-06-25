@@ -22,6 +22,7 @@ public class WebUtils {
         return yearMonthDay;
     }
 
+
     public static void upload(FileItem fileItem, HttpServletRequest request){
         //获取上传的文件名字
         String name = fileItem.getName();
